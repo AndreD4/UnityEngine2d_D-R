@@ -34,7 +34,8 @@ public class PlayerMovement : MonoBehaviour
       Vector2 playerVelocity = new Vector2 (moveInput.x * runSpeed, rb.velocity.y);
       rb.velocity = playerVelocity;
 
-      myAnime.SetBool("isRunning", true);
+      bool playerHasHorizontalSpeed = Mathf.Abs(rb.velocity.x) > Mathf.Epsilon;
+      myAnime.SetBool("isRunning", playerHasHorizontalSpeed);
     }
 
     void FlipSprite()
