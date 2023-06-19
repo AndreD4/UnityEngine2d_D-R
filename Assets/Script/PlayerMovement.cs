@@ -32,6 +32,11 @@ public class PlayerMovement : MonoBehaviour
       Debug.Log(moveInput);
     }
 
+    void OnClimb(InputValue value)
+    {
+
+    }
+
     void OnJump (InputValue value)
     {
         if(!myCapCollider.IsTouchingLayers(LayerMask.GetMask("Ground"))) {return;}
