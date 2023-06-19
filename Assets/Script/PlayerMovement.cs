@@ -15,7 +15,7 @@ public class PlayerMovement : MonoBehaviour
     
     void Update()
     {
-        
+        Run();
     }
 
     void OnMove(InputValue value)
@@ -23,5 +23,11 @@ public class PlayerMovement : MonoBehaviour
     {
       moveInput = value.Get<Vector2>();
       Debug.Log(moveInput);
+    }
+    
+    void Run()
+    {
+      Vector2 playerVelocity = new Vector2 (moveInput.x, 0f);
+      rb.velocity = playerVelocity;
     }
 }
