@@ -75,6 +75,7 @@ public class PlayerMovement : MonoBehaviour
 
       {
         rb.gravityScale = gravityScaleStart;
+        myAnime.SetBool("isClimbing", false);
         return;
       }
 
