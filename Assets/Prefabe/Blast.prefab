@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5981227707896875041}
   - component: {fileID: -2077349098619668643}
   - component: {fileID: 446136397791316906}
+  - component: {fileID: 5232433238040093406}
   m_Layer: 13
   m_Name: Blast
   m_TagString: Untagged
@@ -122,3 +123,16 @@ CapsuleCollider2D:
   m_Offset: {x: 0.20456733, y: -0.01089412}
   m_Size: {x: 0.36045226, y: 0.3604523}
   m_Direction: 0
+--- !u!114 &5232433238040093406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8834794710385509829}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91b499f5cfe41c14b932e76509e2211c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletSpeed: 15
