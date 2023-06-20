@@ -53,6 +53,9 @@ TagManager:
   - name: Ladder
     uniqueID: 3202563911
     locked: 0
+  - name: Enemies
+    uniqueID: 3001421121
+    locked: 0
   - name: Player
     uniqueID: 506616557
     locked: 0
