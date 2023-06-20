@@ -8826,19 +8826,27 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5665523109856519912, guid: eed65c11fffc3ae44aa3b20c5f50c7ee, type: 3}
       propertyPath: m_GravityScale
-      value: 8
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5665523109856519912, guid: eed65c11fffc3ae44aa3b20c5f50c7ee, type: 3}
       propertyPath: m_CollisionDetection
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5683385504512277469, guid: eed65c11fffc3ae44aa3b20c5f50c7ee, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 96475f3ae0df6aa40b3a0892d82cc1aa, type: 2}
+    - target: {fileID: 8548523379211083101, guid: eed65c11fffc3ae44aa3b20c5f50c7ee, type: 3}
+      propertyPath: runSpeed
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 8548523379211083101, guid: eed65c11fffc3ae44aa3b20c5f50c7ee, type: 3}
       propertyPath: jumpSpeed
-      value: 18
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 8548523379211083101, guid: eed65c11fffc3ae44aa3b20c5f50c7ee, type: 3}
       propertyPath: climbSpeed
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 9148698770163212629, guid: eed65c11fffc3ae44aa3b20c5f50c7ee, type: 3}
       propertyPath: m_RootOrder
