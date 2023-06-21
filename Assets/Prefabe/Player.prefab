@@ -189,9 +189,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runSpeed: 7
-  jumpSpeed: 20
+  jumpSpeed: 15
   climbSpeed: 5
-  deathKick: {x: 10, y: 10}
+  deathKick: {x: 20, y: 20}
+  bullet: {fileID: 8834794710385509829, guid: e5f8bdd67e921ec49a7432c3457a389e, type: 3}
+  gun: {fileID: 5112976869921837401}
 --- !u!114 &9148698769516320825
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -231,7 +233,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 9148698770163212648}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 96475f3ae0df6aa40b3a0892d82cc1aa, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
