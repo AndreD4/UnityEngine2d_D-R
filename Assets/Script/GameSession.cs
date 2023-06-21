@@ -7,7 +7,6 @@ using UnityEngine.SceneManagement;
 public class GameSession : MonoBehaviour
 {
      [SerializeField] int playerLives = 3;
-    [SerializeField] int score =0;
     [SerializeField] TextMeshProUGUI livesText;
     [SerializeField] TextMeshProUGUI scoreText;
     void Awake()
